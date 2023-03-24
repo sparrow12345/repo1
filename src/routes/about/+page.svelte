@@ -1,26 +1,37 @@
+<script>
+	import {base} from "$app/paths";
+    import github from "$lib/images/github.png";
+    import google from "$lib/images/google.png";
+    import Telegram from "$lib/images/telegram.png";
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column">
-	<h1>About this app</h1>
+<h2>About Me</h2>
+    <p>Data Scientist, Software Developer, 
+        with a growing thirst for knowledge, and a never-ending passion for IT.</p>
 
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<pre>npm create svelte@latest</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
-	</p>
-</div>
+<h2>Contacts</h2>
+    <ul>
+        <li>
+            <img src={github} width="15" height="18" style="vertical-align:bottom" alt='Github'>
+            <a id="gh-link" href="https://github.com/sparrow12345">
+              GitHub
+            </a>
+        </li>
+        <li>
+            <img src={Telegram} width="15" height="18" style="vertical-align:bottom" alt='Telegram'>
+            <a id="tg-link" href="https://t.me/Isildur_son_of_Elendil">
+              Telegram
+            </a>
+        </li>
+        <li>
+            <img src={google} width="15" height="18" style="vertical-align:bottom" alt='Google'>
+            <a id="email" href="mailto:majdnaser2013@gmail.com">
+              Email
+            </a>
+        </li>
+    </ul>
