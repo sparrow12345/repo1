@@ -1,6 +1,3 @@
-<script>
-	import Counter from './Counter.svelte';
-</script>
 
 <svelte:head>
 	<title>Home</title>
