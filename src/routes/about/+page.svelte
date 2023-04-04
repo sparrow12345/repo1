@@ -1,5 +1,4 @@
 <script>
-	import {base} from "$app/paths";
     import github from "$lib/images/github.png";
     import google from "$lib/images/google.png";
     import Telegram from "$lib/images/telegram.png";
